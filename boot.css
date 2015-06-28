@@ -1,0 +1,59 @@
+*, *:before, *:after{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	
+	line-height: 1.2;
+	letter-spacing: 0em;
+	vertical-align: middle;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	webkit-box-sizing: border-box;
+}
+
+body{background: #fff;}
+h1{	font-size: 2em; font-weight: 300;}
+h2{	font-size: 1.4em; font-weight: 300; margin: 0;}
+h3{	font-size: 1.3em; font-weight: 500;}
+p{	margin-bottom: 15px;}
+p:last-child{margin-bottom: 0;}
+
+/* HELPERS */
+.last{margin-right: 0}
+.clear{clear: both;}
+
+/* TEXT ALIGN */
+.al-left{text-align: left;}
+.al-right{text-align: right;}
+.al-center{text-align: center;}
+
+/* FONTES */
+.font100{font-weight: 100 !important;}
+.font300{font-weight: 300 !important;}
+.font400{font-weight: 400 !important;}
+
+/* FLOAT */
+.fl-left{float: left;}
+.fl-right{float: right !important;}
+.fl-none{float: none;}
+
+/* DISPLAY */
+.ds-block{display: block;}
+.ds-inblock{display: inline-block;}
+.ds-inline{display: inline;}
+.ds-none{display: none;}
+
+/* BOX */
+.box{width: auto; float: left;}
+.box-line{float: left; width: 100%}
+
+.box-small{width: 22.75%; margin-right: 1%; margin-top:5%;  }
+.box-small2{width: 20%; margin-right: 1%; margin-left: -14%;}
+.box-large{width: 45%; margin-right: 7%;  margin-top: 2%;}
+/* text color */
+.font-blue{color: #4a81c7;}

@@ -1,0 +1,143 @@
+*{margin: 0; padding: 0}
+
+@media (max-width: 480px) {
+	.topo, .logo1, .logo2, .logos, .logo-evento, .desc-evento, .tabs li,.sbc, .acm, .copy, .content, .footer{width: 100%!important; display: block;}
+	.desc-evento p{ color: #666!important}
+	.logo1,.logo2{text-align: center; margin-bottom: 20px;}
+
+}
+
+
+
+/*header*/
+body{font-family: 'Roboto', sans-serif;}
+.clear{ clear: both;}
+
+.wrap-header{ 
+	width: 100%;
+    border-top: 20px solid rgb(75,130,195);
+	float: left;
+}
+.topo{
+	width: 80%;
+	margin: 0 auto;
+}
+.tabs{ 
+	width: 100%;
+	list-style: none;
+}
+ul.tabs li.current{
+	background: rgb(75,130,195);
+	color: rgb(245,249,252);
+	}
+.tabs li{
+	float: left;
+	color: rgb(41,79,124);
+	padding: 15px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+/*tab-content - bloco onde será exibido o conteudo*/
+.tab-content{
+	display: none;
+}
+.tab-content.current{
+	display: inherit;
+}
+.box-logo{
+	width: 100%;
+	float: left;
+	margin-top: 0.5208333333333333%;
+}
+.logo1{
+	width: 50%;
+	float: left;
+}
+.logo2{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.barra{
+	width: 100%;
+	height: 67px;
+	margin-top: 2%;
+	float: left;
+	background-color: rgb(75,130,195);
+}
+
+.logos{
+	width: 80%;
+	margin: 0 auto;
+}
+.logo-evento{
+	width: 35%;
+	float: left;
+	margin-top: -40px;
+
+}
+
+
+.desc-evento{
+	width: 65%;
+	float: right;
+	text-align: right;
+	padding: 1.770833333333333% 0;
+}
+.desc-evento p{
+	font-size: 1.625em;
+	color: rgb(245,249,252);
+	font-weight: 300;
+}
+
+/* container */
+.container{
+	width: 100%;
+	float: left;
+	margin-top: 5.333333333333333%;
+}
+.content{
+	width: 80%;
+	margin:0 auto;
+	color: rgb(75,128,195);
+}
+.content h1, .content h2, .content h3{
+	margin-bottom: 0px;
+}
+.content p{
+	font-size: 0.9em;
+	line-height: 1.4em;
+	color: rgb(66,66,81);
+	margin-top: 1.25%; 
+}
+.content strong, .content b{
+	font-weight: bold;
+}
+/*footer*/
+.box-footer{
+	width: 100%;
+	float: left;
+	margin-top: 7%;
+}
+.footer{
+	width: 60%;
+	margin: 0 auto;
+}
+.sbc, .acm{
+	width: 23.33333333333333%;
+	float: left;
+}
+.sbc img{
+	margin-top: 78px;
+}
+.copy{
+	width: 53.33333333333333%;
+	float: left;
+	text-align: center;
+	font-size: 0.7em;
+	color: rgb(75,128,195);
+	margin-top: 17%
+}
+.acm{
+	text-align: right;
+}
